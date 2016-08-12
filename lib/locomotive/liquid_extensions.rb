@@ -10,5 +10,6 @@ end
 #Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Json)
 #Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Hexdigest)
 Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::Md5)
+Liquid::Template.register_filter(Locomotive::LiquidExtensions::Filters::GroupByMonth)
 # DEBUG
 # puts "[LocomotiveLiquidExtensions] tags and filters loaded"
